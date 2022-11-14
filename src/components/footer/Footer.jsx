@@ -16,20 +16,20 @@ function Footer() {
             </div>
           </div>
           <div className="footer2">
-            <a href="#">About Us</a>
-            <a href="#">Community</a>
-            <a href="#">Contact Us</a>
+            <a href="https://velvonium.web.app">About Us</a>
+            <a href="https://velvonium.web.app">Community</a>
+            <a href="https://velvonium.web.app">Contact Us</a>
           </div>
           <div className="footer3">
-            <a href="#">FAQs</a>
-            <a href="#">For Influencers</a>
-            <a href="#">For Brands</a>
+            <a href="https://velvonium.web.app">FAQs</a>
+            <a href="https://velvonium.web.app">For Influencers</a>
+            <a href="https://velvonium.web.app">For Brands</a>
           </div>
           <div className="footer4">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Disclaimer</a>
-            <a href="#">Guidelines</a>
-            <a href="#">Careers</a>
+            <a href="https://velvonium.web.app">Privacy Policy</a>
+            <a href="https://velvonium.web.app">Disclaimer</a>
+            <a href="https://velvonium.web.app">Guidelines</a>
+            <a href="https://velvonium.web.app">Careers</a>
           </div>
         </div>
         <div className="footer-bottom">
