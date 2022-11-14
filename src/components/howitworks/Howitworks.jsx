@@ -14,10 +14,10 @@ function Howitworks() {
         <div className="hiwtext">
           <div className="howsubhead">Our working in 4 simple steps:</div>
           <div className="howdescs">
-            <div className="howdesc">Brand signs an online contract with the influencer</div>
-            <div className="howdesc">Brand deposits money to <span className='greentext'>Deal My Social</span></div>
-            <div className="howdesc">Influencer completes the tasks mentioned in the contract</div>
-            <div className="howdesc"><span className='greentext'>Deal My Social</span> releases money to the influencer</div>
+            <div className="howdesc">1️⃣ Brand signs an online contract with the influencer</div>
+            <div className="howdesc">2️⃣ Brand deposits money to <span className='greentext'>Deal My Social</span></div>
+            <div className="howdesc">3️⃣ Influencer completes the tasks mentioned in the contract</div>
+            <div className="howdesc">4️⃣ <span className='greentext'>Deal My Social</span> releases money to the influencer</div>
           </div>
         </div>
       </div>
