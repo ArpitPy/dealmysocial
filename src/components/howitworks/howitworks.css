@@ -1,0 +1,74 @@
+.howheading {
+  margin-top: 200px;
+  text-align: center;
+  font-size: 30px;
+  color: #1dbf73;
+  margin-bottom: 40px;
+  border: 2px solid black;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.howitworks{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.hiwimg img{
+  width: 300px;
+}
+.howsubhead {
+  font-size: 25px;
+  color: rgb(2, 103, 103);
+  text-align: center;
+  margin-bottom: 30px;
+}
+.howdesc {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+} 
+.greentext {
+  color: #1dbf73;
+}
+.getstarted {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 30px;
+  color: #1dbf73;
+  margin-bottom: 80px;
+  border: 2px solid black;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.adimg {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.influencerad {
+  margin-bottom: 30px;
+  width: 350px;
+  cursor: pointer;
+}
+.businessad {
+  margin-bottom: 30px;
+  width: 350px;
+  cursor: pointer;
+}
+@media (max-width: 1200px) {
+  .howheading {
+    margin-top: 150px;
+  }
+}
+@media (max-width: 980px) {
+  .howheading {
+    margin-top: 120px;
+  }
+}

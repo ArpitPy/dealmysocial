@@ -1,0 +1,136 @@
+.heroimage {
+  width: 100vw;
+  object-fit: contain;
+  position: absolute;
+  z-index: -100;
+}
+.heroheading {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  width: 60%;
+  margin-left: 50px;
+  margin-top: 70px;
+}
+.heroheading1 {
+  display: none;
+}
+.herodesc {
+  font-size: 20px;
+  color: white;
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.herodesc1 {
+  display: none;
+}
+.herobutton {
+  margin-left: 50px;
+  margin-top: 20px;
+  border: none;
+  padding: 10px 30px;
+  background-color: #1dbf73;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.herobutton1 {
+  display: none;
+}
+.herobutton:hover {
+  background-color: #14b46a;
+}
+@media (max-width: 921px) {
+  .heroheading {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .herodesc {
+    font-size: 14px;
+  }
+  .herobutton {
+    font-size: 14px;
+    padding: 7px 15px;
+  }
+}
+@media (max-width: 700px) {
+  .heroimage {
+    display: none;
+  }
+  .heroheading {
+    display: none;
+  }
+  .herodesc {
+    display: none;
+  }
+  .herobutton {
+    display: none;
+  }
+  .heroheading1 {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    width: 90vw;
+    margin-bottom: 60px;
+  }
+  .herodesc1 {
+    display: block;
+    width: 90vw;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .herobutton1 {
+    display: block;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+    border: none;
+    padding: 10px 10px;
+    background-color: #1dbf73;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .mobile {
+    z-index: -100;
+    background: rgb(29, 191, 115);
+    background: -moz-linear-gradient(
+      180deg,
+      rgba(29, 191, 115, 1) 0%,
+      rgba(15, 15, 15, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+      180deg,
+      rgba(29, 191, 115, 1) 0%,
+      rgba(15, 15, 15, 1) 100%
+    );
+    background: linear-gradient(
+      180deg,
+      rgba(29, 191, 115, 1) 0%,
+      rgba(15, 15, 15, 1) 100%
+    );
+    width: 100vw;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1dbf73",endColorstr="#0f0f0f",GradientType=1);
+    color: white;
+    margin-top: 0;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (max-width: 360px){
+    .heroheading1{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .herodesc1{
+        font-size: 15px;
+    }
+}
