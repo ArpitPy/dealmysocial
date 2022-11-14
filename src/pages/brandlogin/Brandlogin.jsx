@@ -8,8 +8,8 @@ function Brandlogin() {
         <div>
             <Topbar />
             <div className="signup">
-                <img className='signupimg' src={Brand} alt="" />
-                <div className="signup-form">
+                <img className='loginimg' src={Brand} alt="" />
+                <div className="login-form">
                     <div className="signup-text">Log In</div>
                     <form className='signup-box'>
                         <input placeholder="Email" type="email" required className='signupinput' />

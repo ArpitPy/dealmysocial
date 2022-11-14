@@ -8,8 +8,8 @@ function Influencerlogin() {
         <div>
             <Topbar />
             <div className="signup">
-                <img className='signupimg' src={Influencer} alt="" />
-                <div className="signup-form">
+                <img className='loginimg' src={Influencer} alt="" />
+                <div className="login-form">
                     <div className="signup-text">Log In</div>
                     <form className='signup-box'>
                         <input placeholder="Email" type="email" required className='signupinput' />
