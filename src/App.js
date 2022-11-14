@@ -1,9 +1,9 @@
-import Homepage from "./pages/homepage/Homepage";
+import Loginer from '../src/pages/loginer/Loginer';
 
 function App() {
   return (
     <div className="App">
-      <Homepage/>
+      <Loginer />
     </div>
   );
 }

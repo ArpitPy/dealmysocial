@@ -1,0 +1,19 @@
+.loginer {
+  background: rgb(64, 205, 78);
+  background: -moz-linear-gradient(
+    270deg,
+    rgba(64, 205, 78, 1) 0%,
+    rgba(35, 96, 82, 1) 50%
+  );
+  background: -webkit-linear-gradient(
+    270deg,
+    rgba(64, 205, 78, 1) 0%,
+    rgba(35, 96, 82, 1) 50%
+  );
+  background: linear-gradient(
+    270deg,
+    rgba(64, 205, 78, 1) 0%,
+    rgba(35, 96, 82, 1) 50%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#40cd4e",endColorstr="#236052",GradientType=1);
+}

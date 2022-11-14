@@ -1,4 +1,3 @@
-import './homepage.css';
 import Topbar from '../../components/topbar/Topbar';
 import Heroimage from '../../components/heroimage/Heroimage';
 import Howitworks from '../../components/howitworks/Howitworks';
