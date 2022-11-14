@@ -1,5 +1,5 @@
 .howheading {
-  margin-top: 200px;
+  margin-top: 40px;
   text-align: center;
   font-size: 30px;
   color: #1dbf73;
@@ -54,12 +54,12 @@
 }
 .influencerad {
   margin-bottom: 30px;
-  width: 350px;
+  width: 300px;
   cursor: pointer;
 }
 .businessad {
   margin-bottom: 30px;
-  width: 350px;
+  width: 300px;
   cursor: pointer;
 }
 @media (max-width: 1200px) {
