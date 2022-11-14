@@ -5,12 +5,12 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="Navbar">
-      <img className="logo" src={Logo} alt="" />
+        <img className="logo" src={Logo} alt="" />
       <div className={`nav-items ${isOpen && "open"}`}>
-        <a href="/home">About Us</a>
+        <a href="/">Home</a>
         <a href="/about">Community</a>
-        <a href="/service">Log In</a>
-        <a href="/contact">Sign Up</a>
+        <a href="/loginer">Log In</a>
+        <a href="/signer">Sign Up</a>
       </div>
       <div
         className={`nav-toggle ${isOpen && "open"}`}

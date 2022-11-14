@@ -2,6 +2,7 @@ import './howitworks.css';
 import InfluencerAD from '../../assets/influencerad.png';
 import BusinessAD from '../../assets/businessad.png';
 import HowItWorksImg from '../../assets/howitworks.png';
+import {Link} from 'react-router-dom';
 
 function Howitworks() {
   return (
@@ -23,8 +24,8 @@ function Howitworks() {
       </div>
       <div className="getstarted">Get Started!</div>
       <div className="adimg">
-        <img className='influencerad' src={InfluencerAD} alt="" />
-        <img className='businessad' src={BusinessAD} alt="" />
+        <Link to="/influencersignup"><img className='influencerad' src={InfluencerAD} alt="" /></Link>
+        <Link to="/brandsignup"><img className='businessad' src={BusinessAD} alt="" /></Link>
       </div>
     </div>
   )

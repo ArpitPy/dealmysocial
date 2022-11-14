@@ -16,4 +16,68 @@
     rgba(35, 96, 82, 1) 50%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#40cd4e",endColorstr="#236052",GradientType=1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.loginer-brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid white;
+  padding: 30px 60px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.loginer-brand img {
+  height: 150px;
+}
+.loginer-influencer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid white;
+  padding: 30px 60px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.loginer-influencer img {
+  height: 150px;
+}
+.loginer-text {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.loginer-brand button {
+  border: none;
+  padding: 10px 30px;
+  background-color: #1dbf73;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.loginer-brand button:hover {
+  background-color: black;
+  color: #1dbf73;
+}
+.loginer-influencer button {
+  border: none;
+  padding: 10px 30px;
+  background-color: #1dbf73;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.loginer-influencer button:hover {
+  background-color: black;
+  color: #1dbf73;
 }
